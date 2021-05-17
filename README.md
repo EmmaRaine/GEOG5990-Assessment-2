@@ -5,10 +5,10 @@
 Overall, this work aimed to present a density map of drunk person movement as they randomly move around the town to find their way home. This model should:
 
 * pull in the town data and finds out the pub and home points.
-* draws the pub and homes on the screen
-* models the drunks leaving their pub and reaching their homes, storing how many drunks pass through each point on the map
-* draws the density of drunks passing through each point on a map
-* saves the density map to the working directory as a text file (.txt)
+* draw the pub and homes on the screen
+* model the drunks leaving their pub and reaching their homes, storing how many drunks pass through each point on the map
+* draw the density of drunks passing through each point on a map
+* save the density map to the working directory as a text file (.txt)
 
 ### Contents
 
@@ -23,7 +23,7 @@ This file contains the Drunk class that defines the functions used in the final 
 
 #### drunkmodel.py
 
-This file contains the final model code and is responsible for plotting the final density map and saving it as a text file. The code should run, firstly saving the town plan to a town list before plotting the town. Following on, the code should find the coordinates and centre coordinates of the pub alongside the house coordinates and provide code that can manually plot these on the screen. A density list is then created before the code to move the drunks and increase density is run. The density map is then plotted along with the drunks final locations before, finally, the density list is exported as a text file and saved in the working folder. The values in this text file will change each time the model is run as drunks do not take the same route hom each time. Iformation on how to run the model can be found [here](https://github.com/EmmaRaine/GEOG5990-Assessment-2/blob/main/User_Documentation.md).
+This file contains the final model code and is responsible for plotting the final density map and saving it as a text file. The code should run, firstly saving the town plan to a town list before plotting the town. Following on, the code should find the coordinates and centre coordinates of the pub alongside the house coordinates and provide code that can manually plot these on the screen. A density list is then created before the code to move the drunks and increase density is run. The density map is then plotted along with the drunks final locations before, finally, the density list is exported as a text file and saved in the working folder. The values in this text file will change each time the model is run as drunks do not take the same route hom each time. Information on how to run the model can be found [here](https://github.com/EmmaRaine/GEOG5990-Assessment-2/blob/main/User_Documentation.md).
 
 #### drunk.plan.txt
 
