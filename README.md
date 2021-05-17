@@ -38,10 +38,8 @@ This is the density file exported at the end of the model. This contains a varie
 
 This file contains information on how to run the model, model testing, how the code was developed and the software required to run the model. 
 
-#### Model_Issues.md
+#### Issues_and_Development.md
 
-This file details any issues encountered in the model developement process. It also highlights any issues or functionality/efficiency problems in the final model and details why they were not/could not be solved. This can be found [here](https://github.com/EmmaRaine/GEOG5990-Assessment-2/blob/main/Model_Issues.md).
+This file details any issues encountered in the model developement process. It also highlights any issues or functionality/efficiency problems in the final model and details why they were not/could not be solved. In addition, this file provides information surrounding future opportunities for model development. This can be found [here](https://github.com/EmmaRaine/GEOG5990-Assessment-2/blob/main/Issues_and_Development.md).
 
-#### Further_Developments.md
 
-This file provides information surrounding potential future model developments. This can be found [here](https://github.com/EmmaRaine/GEOG5990-Assessment-2/blob/main/Further_Developments.md).
