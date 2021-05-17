@@ -23,7 +23,7 @@ This file contains the Drunk class that defines the functions used in the final 
 
 #### drunkmodel.py
 
-This file contains the final model code and is responsible for plotting the final density map and saving it as a text file. The code should run, firstly saving the town plan to a town list before plotting the town. Following on, the code should find the coordinates and centre coordinates of the pub alongside the house coordinates and provide code that can manually plot these on the screen. A density list is then created before the code to move the drunks and increase density is run. The density map is then plotted along with the drunks final locations before, finally, the density list is exported as a text file and saved in the working folder. The values in this text file will change each time the model is run as drunks do not take the same route hom each time. Iformation on how to run the model can be found ([here]:(https://github.com/EmmaRaine/GEOG5990-Assessment-2/blob/main/User_Documentation.md)).
+This file contains the final model code and is responsible for plotting the final density map and saving it as a text file. The code should run, firstly saving the town plan to a town list before plotting the town. Following on, the code should find the coordinates and centre coordinates of the pub alongside the house coordinates and provide code that can manually plot these on the screen. A density list is then created before the code to move the drunks and increase density is run. The density map is then plotted along with the drunks final locations before, finally, the density list is exported as a text file and saved in the working folder. The values in this text file will change each time the model is run as drunks do not take the same route hom each time. Iformation on how to run the model can be (found [here](https://github.com/EmmaRaine/GEOG5990-Assessment-2/blob/main/User_Documentation.md)).
 
 #### drunk.plan.txt
 
@@ -40,8 +40,8 @@ This file contains information on how to run the model, model testing, how the c
 
 #### Model_Issues.md
 
-This file details any issues encountered in the model developement process. It also highlights any issues or functionality/efficiency problems in the final model and details why they were not/could not be solved. This can be found ([here]: (https://github.com/EmmaRaine/GEOG5990-Assessment-2/blob/main/Model_Issues.md)).
+This file details any issues encountered in the model developement process. It also highlights any issues or functionality/efficiency problems in the final model and details why they were not/could not be solved. This can be (found [here](https://github.com/EmmaRaine/GEOG5990-Assessment-2/blob/main/Model_Issues.md)).
 
 #### Further_Developments.md
 
-This file provides information surrounding potential future model developments. This can be found ([here]: (https://github.com/EmmaRaine/GEOG5990-Assessment-2/blob/main/Further_Developments.md)).
+This file provides information surrounding potential future model developments. This can be (found [here](https://github.com/EmmaRaine/GEOG5990-Assessment-2/blob/main/Further_Developments.md)).
