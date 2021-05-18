@@ -9,8 +9,8 @@ Created on Thu May 13 12:32:23 2021
 # Import csv to parse/work with CSV data. 
 import csv
 
-# Import the drunkframework1 file to import the Drunks class which containing fucntions that 
-# determining drunks behaviour as they make their way home. 
+# Import the drunkframework1 file to import the Drunks class which containing functions that 
+# determine drunks behaviour as they make their way home. 
 import drunkframework1  
 
 # Import matplotlib.pyplot as plt to allow data to be plotted. Importing as plt reduces risk of 
@@ -164,7 +164,7 @@ d = open('drunk.plan.txt', newline='')
 reader = csv.reader(d, quoting=csv.QUOTE_NONNUMERIC)
 # Create a for-loop to make each row a new list which will store the CSV data.
 for row in reader:
-   # Initialise a new list (rowlist) where values from the town data will be stored. 
+   # Initialise a new list (rowlist2) where values from the town data will be stored. 
    rowlist2 = []
    for value in row:
        # Set the values in the row to zero. This will be increased by 1 everytime an agent passes over a coordinate.
@@ -185,12 +185,12 @@ for i in range(num_of_drunks):
     # reach.
     # As the first value in a list is in the '0' spot on python, the user has to add 1 first before mutliplying by 10.
     identifier = ((i+1)*10)  
-    # Ensure all drunks have been assigned an identifier the numbers are correct. This should go up in multiples of 10
-    # from 10-250 as their are 25 drunks and should match house numbers ranging from 10-250 as set out in the
+    # Ensure all drunks have been assigned an identifier and the numbers are correct. This should go up in multiples of
+    # 10 from 10-250 as their are 25 drunks and should match house numbers ranging from 10-250 as set out in the
     # drunk.plan.txt file.
     #print("Drunk IDs:", identifier)
     # Append the Drunks class from the drunkframework file to the empty drunk list created in this model. 
-    # This should pass in the pub, density and identifier variables.
+    # This should pass in the pub, town, drunks, density and identifier variables.
     drunks.append(drunkframework1.Drunks(density, identifier, pub_x, pub_y, drunks, town))
 
 # Create a single variable to ensure that appending the drunk_agents file to the drunks list has worked properly.
@@ -208,8 +208,6 @@ print("Drunks location after being moved once:", d._x, d._y)
 
 
 
-# Create a variable to store the number of drunks who have made it home.       
-#drunk_count = 0
 # Create a for-loop to set some behaviour of the drunks. By calling the num_of_drunks variable, this means the loop
 # will be run for each of the 25 drunks.    
 for i in range(num_of_drunks):
@@ -220,12 +218,6 @@ for i in range(num_of_drunks):
         # Increase the density of the points they cross in the town (increase density of a point by 1 everytime a 
         # drunk passes that point)
         drunks[i].increase_density() 
-    ##else: 
-        # Increase the number of drunks how made it home variable (drunk_count) by 1.
-        #drunk_count +=1
-        # When this is equal to the number of drunks (25) it means all drunks have made it back home. 
-        #if drunk_count == (num_of_drunks):
-            #print("Drunks have made it home!")
     # Once the drunk found their home (i.e. coordinates match their house number), print the coordinates. 
     print (town[drunks[i]._y][drunks[i]._x], drunks[i].identifier)
 

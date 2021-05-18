@@ -45,15 +45,15 @@ class Drunks:
         # Set up a variable to use when calling on the drunks to perform certain behaviours
         self.drunks = drunks
         
-        # The next two variables should be uncommented if the user wishes to perfect the code to stop agents 
+        # Set up the environment which drunks will navigate their way around.  
+        self.town = town
+        
+        # The next variable should be uncommented if the user wishes to perfect the code to stop agents 
         # re-tracing their steps. 
         # Self.visited creates a dictionary to store self._x and self._y variables relating to where the drunks
         # have been. 
         #self.locationvisited = {(self._x, self._y)}
-        # Self.town sets up the environment which drunks will navigate their way around. This should be called in the
-        # init function if the user wishes to stop drunks retracing their steps. 
-        self.town = town
-        
+  
         
         
 # Create a walk_home() function within the Agent class. 
